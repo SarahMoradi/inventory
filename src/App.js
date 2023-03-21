@@ -1,11 +1,11 @@
-
+import Navbar from './components/NavBar'
 
 function App() {
   return (
-    <div className="App">
-    <h1 className='text-3xl bg-red-200 py-2'>Hi</h1> 
+    <div className='App'>
+      <Navbar />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
